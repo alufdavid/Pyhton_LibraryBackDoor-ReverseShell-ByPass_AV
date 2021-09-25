@@ -11,10 +11,15 @@ How to use:
   ![image](https://user-images.githubusercontent.com/89795917/134780256-8ed5327e-2e23-4019-bcec-4c2c26edf1e3.png)
 
 3. run the attacker-server - to start listening for connection:
-  ![image](https://user-images.githubusercontent.com/89795917/134780284-d2c19f19-0dc6-4607-861d-fa92872b0440.png)
+  ![image](https://user-images.githubusercontent.com/89795917/134787943-316459ba-8758-44a8-9b9a-455de345ab46.png)
 
 4. run the call_module - as if someone would have called the main function in the library you have created:
-  ![image](https://user-images.githubusercontent.com/89795917/134780388-0c6fd1e6-1914-4cb4-9cf9-1ce563191597.png)
+  ![image](https://user-images.githubusercontent.com/89795917/134787958-4525be81-2c6b-48c0-ae8b-8ae99490b99e.png)
+  
+5. run commands from user privalges:
+  ![image](https://user-images.githubusercontent.com/89795917/134787966-5bc1f4c3-26c4-489e-bb24-32ef67046c82.png)
 
 now you have a shell.
+
+
 enjoy :)
