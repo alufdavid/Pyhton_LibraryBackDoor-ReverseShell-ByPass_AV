@@ -10,16 +10,16 @@ s = socket.socket()
 # bind the socket to all IP addresses of this host
 s.bind((SERVER_HOST, SERVER_PORT))
 s.listen(5)
-print("Listening as {SERVER_HOST}:{SERVER_PORT} ...")
+print(f"Listening as {SERVER_HOST}:{SERVER_PORT} ...")
 # accept any connections attempted
 client_socket, client_address = s.accept()
-print("{client_address[0]}:{client_address[1]} Connected!")
+print(f"{client_address[0]}:{client_address[1]} Connected!")
 # receiving the current working directory of the client
 cwd = client_socket.recv(BUFFER_SIZE).decode()
 print("[+] Current working directory:", cwd)
 while True:
     # get the command from prompt
-    command = input("{cwd} $> ")
+    command = input(f"{cwd} $> ")
     if not command.strip():
         # empty command
         continue
