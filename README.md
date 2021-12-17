@@ -1,5 +1,5 @@
 # BackDoor-py-Lib
-# This Exploit Is Bade on the single malicious functionallity
+# This Exploit Is Based on the single malicious functionallity technique
 
 
 A python Library that when the main function is imported - creates a Reverse Shell to an attacker
