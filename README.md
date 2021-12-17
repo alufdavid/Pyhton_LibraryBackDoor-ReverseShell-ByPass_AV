@@ -1,8 +1,8 @@
 # BackDoor-py-Lib
 # This Exploit Is Based on the single malicious functionallity technique
 
-
-A python Library that when the main function is imported - creates a Reverse Shell to an attacker
+The Idea is to creat/inject a single function into a popular python Library
+that when the main function is imported - creates a Reverse Shell to an attacker
 
 How to use:
 1. set the attacker-server: [im testing on localhost - so im setting on a loopback]
